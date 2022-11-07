@@ -1,0 +1,149 @@
+{
+    "name": "Lívia Morais",
+    "banner": "https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTUxfHxkZXZlbG9wZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "job": "Software Engineer",
+    "github": "livmorais",
+    "favoritos": {
+        "favoritoscard": [
+            {
+                "name": "@Funky Black Cat",
+                "url": "https://www.youtube.com/user/funkyblackcat",
+                "photo": "https://yt3.ggpht.com/ytc/AMLnZu-plxxM3a-5TtArso4mOEQtBi3VP5OWeqN0VMV5_GQ=s176-c-k-c0x00ffffff-no-rj"
+            },
+            {
+              "name": "@Resident Evil Database",
+              "url": "https://www.youtube.com/c/Residentevildatabase",
+              "photo": "https://yt3.ggpht.com/ytc/AMLnZu--p_kQA_RaIftOq5T4reSAOTYSY-G6Fe2h6YDhPfo=s176-c-k-c0x00ffffff-no-rj"
+            }
+        ]
+    },
+    "playlists": {
+      "jogos": [
+          {
+            "title": "RED DEAD REDEMPTION 2 - INÍCIO: A Nova Obra-Prima da Rockstar!",
+            "url": "https://www.youtube.com/watch?v=GjS1e9cz5PY",
+            "thumb": "https://i.ytimg.com/vi/GjS1e9cz5PY/maxresdefault.jpg"
+          },
+          {
+            "title": "FAR CRY 3 - #1: Início do Melhor Jogo da Série!",
+            "url": "https://www.youtube.com/watch?v=fpfD9yPw8Fs",
+            "thumb": "https://i.ytimg.com/vi/fpfD9yPw8Fs/maxresdefault.jpg"
+          },
+          {
+            "title": "RESIDENT EVIL 4 - #1: Introdução",            
+            "url": "https://www.youtube.com/watch?v=gklTUwy5k-c",
+            "thumb": "https://i.ytimg.com/vi/gklTUwy5k-c/maxresdefault.jpg"
+          },
+          {
+            "title": "SILENT HILL 2 - CLÁSSICO de Terror! (Português PT-BR)",
+            "url": "https://www.youtube.com/watch?v=stDPczFBlzM",
+            "thumb": "https://i.ytimg.com/vi/stDPczFBlzM/maxresdefault.jpg"
+          },
+          {
+            "title": "THE LAST OF US PARTE II - #1: INÍCIO DO JOGO (PS4 Pro)",
+            "url": "https://www.youtube.com/watch?v=HCDOyXu4UfU&list=PLbK79OJUFFXwUXDsRtJz9aThTp_eUDy0K",
+            "thumb": "https://i.ytimg.com/vi/HCDOyXu4UfU/maxresdefault.jpg"
+          },
+          {
+            "title": "RESIDENT EVIL 7 - #1: INÍCIO! O RETORNO AO TERROR! (PS4 Pro)",
+            "url": "https://www.youtube.com/watch?v=BKukfK-rKR8&list=PLbK79OJUFFXwxfvWSoKqXGNGXKLrWfDkl",
+            "thumb": "https://i.ytimg.com/vi/BKukfK-rKR8/maxresdefault.jpg"
+          },
+          {
+            "title": "GTA 5 com MODS - #1: Los Santos mais bonita que nunca!",
+            "url": "https://www.youtube.com/watch?v=hLliUlUHL20",
+            "thumb": "https://i.ytimg.com/vi/hLliUlUHL20/maxresdefault.jpg"
+          },
+          {
+            "title": "Microsoft Flight Simulator - Top Gun: Oceania - Missão RJ!",
+            "url": "https://www.youtube.com/watch?v=n3TneUb5c-w",
+            "thumb": "https://img.youtube.com/vi/n3TneUb5c-w/hqdefault.jpg"
+          }
+        ],
+      "front-end": [
+        {
+          "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+          "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+          "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+        },
+        {
+          "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+          "url": "https://www.youtube.com/watch?v=llF6vD-RljE",
+          "thumb": "https://img.youtube.com/vi/llF6vD-RljE/hqdefault.jpg"
+        },
+        {
+          "title": "A Primeira Aula de Flutter Que Todo Mundo Deveria Ter",
+          "url": "https://www.youtube.com/watch?v=J4BVaXkwmM8",
+          "thumb": "https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
+        },
+        {
+          "title": "O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?",
+          "url": "https://www.youtube.com/watch?v=dp0zB4n3MUs",
+          "thumb": "https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
+        },
+        {
+          "title": "Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador",
+          "url": "https://www.youtube.com/watch?v=Yf0rC7dERjg",
+          "thumb": "https://img.youtube.com/vi/Yf0rC7dERjg/hqdefault.jpg"
+        },
+        {
+          "title": "Como Foi Programado um App Que Faz Mágica",
+          "url": "https://www.youtube.com/watch?v=I36seuWUe5s",
+          "thumb": "https://img.youtube.com/vi/I36seuWUe5s/hqdefault.jpg"
+        },
+        {
+          "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
+          "url": "https://www.youtube.com/watch?v=yS7AcF-xRUg",
+          "thumb": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
+        },
+        {
+          "title": "5 Erros Históricos do CSS",
+          "url": "https://www.youtube.com/watch?v=HNjkqONzGS0",
+          "thumb": "https://img.youtube.com/vi/HNjkqONzGS0/hqdefault.jpg"
+        },
+        {
+          "title": "Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End",
+          "url": "https://www.youtube.com/watch?v=d9c0r-J6CdM",
+          "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
+        }
+      ],
+      "back-end": [
+        {
+          "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+          "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
+          "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+        },
+        {
+          "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+          "url": "https://www.youtube.com/watch?v=8q36rNS5yVo",
+          "thumb": "https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
+        },
+        
+        {
+          "title": "O que é o Java? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=90NcVNsKGik",
+          "thumb": "https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
+        },
+        {
+          "title": "O que é Machine Learning? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
+          "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
+        },
+        {
+          "title": "A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=imB0QVoNrGc",
+          "thumb": "https://img.youtube.com/vi/imB0QVoNrGc/hqdefault.jpg"
+        },
+        {
+          "title": "Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=ldRbnpy-qQs",
+          "thumb": "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg"
+        },
+        {
+          "title": "O que é o C#? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
+          "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+        }
+      ]
+    }
+  }
