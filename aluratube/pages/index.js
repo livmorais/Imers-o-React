@@ -1,3 +1,4 @@
+import React from "react";
 import config from "../config.json";
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
@@ -8,6 +9,7 @@ function HomePage() {
     const estilosDaHomePage = {
          
     };
+    const [valorDoFiltro, setValorDoFiltro] = React.useState("");
 
     return (
         <>
@@ -17,9 +19,9 @@ function HomePage() {
                 flexDirection: "column",
                 flex: 1,
             }}>
-                <Menu />
+                <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
                 <Header />
-                <Timeline playlists={config.playlists} favoritos={config.favoritos}>
+                <Timeline searchValue={valorDoFiltro} playlists={config.playlists} favoritos={config.favoritos}>
                     Conteúdo
                 </Timeline>
             </div>
@@ -87,7 +89,7 @@ function Header() {
     )
 }
 
-function Timeline(propriedades) {
+function Timeline({searchValue, ...propriedades}) {
     const playlistNames = Object.keys(propriedades.playlists);
     // Statement
     // Retorno por expressão
@@ -96,15 +98,20 @@ function Timeline(propriedades) {
         <StyledTimeline>
             {playlistNames.map((playlistName) => {
                 const videos = propriedades.playlists[playlistName];
-                console.log(playlistName);
-                console.log(videos);
+                // console.log(playlistName);
+                // console.log(videos);
                 return (
-                    <section>
+                    <section key={playlistName}>
                         <h2>{playlistName}</h2>
                         <div>
-                            {videos.map((video) => {
+                            {videos.filter((video) => {
+                                const titleNormalized = video.title.toLowerCase();
+                                const searchValueNormalized = searchValue.toLowerCase();
+                                return titleNormalized.includes(searchValueNormalized)
+                            })
+                            .map((video) => {
                                 return (
-                                    <a href={video.url}>
+                                    <a key={video.url} href={video.url}>
                                         <img src={video.thumb} />
                                         <span>
                                             {video.title}
@@ -119,18 +126,23 @@ function Timeline(propriedades) {
             })}
             {favoritoNames.map((favoritoName) => {
                 const youtubers = propriedades.favoritos[favoritoName];
-                console.log(favoritoName);
-                console.log(youtubers);
+                // console.log(favoritoName);
+                // console.log(youtubers);
                 return (
-                    <section>
+                    <section key={favoritoName}>
                         <h2>AluraTubes Favoritos</h2>
                         <div className="favoritos">
-                            {youtubers.map((youtuber) => {
+                            {youtubers.filter((youtuber) => {
+                                const titleNormalized = youtuber.name.toLowerCase();
+                                const searchValueNormalized = searchValue.toLowerCase();
+                                return titleNormalized.includes(searchValueNormalized)   
+                            })
+                            .map((youtuber) => {
                                 return (
                                     <>
                                     <ul className="favorito">
                                        <img src={youtuber.photo}/>
-                                    <a href={youtuber.url}>
+                                    <a key={youtuber.url} href={youtuber.url}>
                                         {youtuber.name}
                                     </a>
                                     </ul>
