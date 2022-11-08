@@ -59,9 +59,18 @@ const StyledHeader = styled.div`
 
     
 `;
+
+const StyledBanner = styled.div`
+    background-color: blue;
+    background-image: url(${({ banner }) => banner});
+    /* background-image: url(${config.bg}); */
+    height: 230px;
+`;
+
 function Header() {
     return (
         <StyledHeader>
+        <StyledBanner banner={config.banner} />
                 {/* <img className="banner" src={config.banner}/> */}
             <section className="user-info">
                 <img className="user-photo" src={`https://github.com/${config.github}.png`} />
