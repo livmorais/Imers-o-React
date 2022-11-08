@@ -51,18 +51,18 @@ const StyledHeader = styled.div`
         padding: 16px 32px;
         gap: 16px;
     }
-    .banner {
+    /* .banner {
         width: 100%;
         object-fit: fill;
         height: 20rem;
-    }
+    } */
 
     
 `;
 function Header() {
     return (
         <StyledHeader>
-                <img className="banner" src={config.banner}/>
+                {/* <img className="banner" src={config.banner}/> */}
             <section className="user-info">
                 <img className="user-photo" src={`https://github.com/${config.github}.png`} />
                 <div>
